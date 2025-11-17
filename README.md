@@ -126,7 +126,9 @@ kaleido>=0.2.1    # For static image export
 Execute the full workflow with 4 pre-configured scenarios:
 
 ```bash
+cd uav_deconfliction_system
 python -m demo.demo_runner
+python -m visualization.visual_enhanced
 ```
 
 **Generates:**
@@ -355,6 +357,7 @@ Open HTML files in any modern browser (Chrome, Firefox, Safari, Edge).
 
 ```bash
 # Test core deconfliction module
+# make sure you are in uav_deconfliction_system
 python -m deconfliction.test
 ```
 
