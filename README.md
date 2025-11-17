@@ -126,7 +126,7 @@ kaleido>=0.2.1    # For static image export
 Execute the full workflow with 4 pre-configured scenarios:
 
 ```bash
-python -m output.demo_runner
+python -m demo.demo_runner
 ```
 
 **Generates:**
@@ -356,9 +356,6 @@ Open HTML files in any modern browser (Chrome, Firefox, Safari, Edge).
 ```bash
 # Test core deconfliction module
 python -m deconfliction.test
-
-# Run integration tests
-python -m output.demo_runner
 ```
 
 ### Expected Test Results
