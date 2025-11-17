@@ -1,0 +1,32 @@
+{
+  "is_clear": false,
+  "analysis_time_ms": 15.111207962036133,
+  "metrics": {
+    "stage1_reduction": "60 \u2192 1",
+    "stage1_time_ms": 4.469633102416992,
+    "stage2_time_ms": 10.433197021484375,
+    "stage3_time_ms": 0.18978118896484375,
+    "total_time_ms": 15.105962753295898,
+    "raw_conflicts": 20,
+    "assessed_conflicts": 1
+  },
+  "conflicts": [
+    {
+      "time": 914.0,
+      "location": {
+        "x": 2106.209557415439,
+        "y": 2944.6258947101746,
+        "z": 200.0
+      },
+      "conflicting_drone": "TRAFFIC-016",
+      "severity": "CRITICAL",
+      "risk_score": 0.8631459700671857,
+      "separation_distance": 80.98689113091814,
+      "relative_velocity": 19.283287929162466,
+      "time_to_collision": 4.199848668361177,
+      "conflict_duration": 7.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "REJECT - Imminent collision (TTC=4.2s). Head-on conflict requires rerouting."
+    }
+  ]
+}

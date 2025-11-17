@@ -1,0 +1,14 @@
+{
+  "is_clear": true,
+  "analysis_time_ms": 18.941879272460938,
+  "metrics": {
+    "stage1_reduction": "75 \u2192 1",
+    "stage1_time_ms": 10.88571548461914,
+    "stage2_time_ms": 8.03828239440918,
+    "stage3_time_ms": 0.0,
+    "total_time_ms": 18.937349319458008,
+    "raw_conflicts": 0,
+    "assessed_conflicts": 0
+  },
+  "conflicts": []
+}

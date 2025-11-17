@@ -1,0 +1,35 @@
+================================================================================
+UAV STRATEGIC DECONFLICTION SYSTEM - SUMMARY REPORT
+================================================================================
+Generated: 2025-11-17 08:18:09
+
+PRIMARY MISSION
+--------------------------------------------------------------------------------
+Drone ID: PRIMARY_DRONE
+Waypoints: 2
+Time Window: 1200.0s - 1789.3s
+Duration: 589.3s
+Total Distance: 7071.2m
+Cruise Speed: 12.00 m/s
+
+TRAFFIC ENVIRONMENT
+--------------------------------------------------------------------------------
+Total Traffic Drones: 50
+
+DECONFLICTION ANALYSIS
+--------------------------------------------------------------------------------
+Stage 1 (Filtering): 2.89 ms
+Reduction: 50 → 0
+Stage 2 (Grid): 0.00 ms
+Raw conflicts: 0
+Stage 3 (Risk): 0.00 ms
+Assessed conflicts: 0
+Total Analysis Time: 2.90 ms
+
+DECISION
+--------------------------------------------------------------------------------
+STATUS: ✓ MISSION CLEARED - No critical conflicts detected.
+
+================================================================================
+END OF REPORT
+================================================================================

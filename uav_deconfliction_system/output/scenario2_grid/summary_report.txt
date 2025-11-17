@@ -1,0 +1,66 @@
+================================================================================
+UAV STRATEGIC DECONFLICTION SYSTEM - SUMMARY REPORT
+================================================================================
+Generated: 2025-11-17 08:18:09
+
+PRIMARY MISSION
+--------------------------------------------------------------------------------
+Drone ID: PRIMARY_DRONE
+Waypoints: 12
+Time Window: 500.0s - 1666.7s
+Duration: 1166.7s
+Total Distance: 14000.0m
+Cruise Speed: 12.00 m/s
+
+TRAFFIC ENVIRONMENT
+--------------------------------------------------------------------------------
+Total Traffic Drones: 80
+
+DECONFLICTION ANALYSIS
+--------------------------------------------------------------------------------
+Stage 1 (Filtering): 9.02 ms
+Reduction: 80 → 12
+Stage 2 (Grid): 76.86 ms
+Raw conflicts: 2140
+Stage 3 (Risk): 5.47 ms
+Assessed conflicts: 73
+Total Analysis Time: 91.41 ms
+
+DECISION
+--------------------------------------------------------------------------------
+STATUS: ✗ MISSION REJECTED - Critical conflicts detected.
+
+CONFLICT SUMMARY
+--------------------------------------------------------------------------------
+Total Conflicts: 73
+  SAFE: 18
+  LOW: 9
+  WARNING: 10
+  HIGH: 27
+  CRITICAL: 9
+
+TOP 5 HIGHEST RISK CONFLICTS
+--------------------------------------------------------------------------------
+1. [CRITICAL] vs TRAFFIC-025
+    Risk: 0.881 | Separation: 1.2m | Time: 500.0s
+    Recommendation: REJECT - Critical separation violation. Mission must be delayed or rerouted.
+
+2. [CRITICAL] vs TRAFFIC-025
+    Risk: 0.881 | Separation: 1.2m | Time: 510.0s
+    Recommendation: REJECT - Critical separation violation. Mission must be delayed or rerouted.
+
+3. [CRITICAL] vs TRAFFIC-025
+    Risk: 0.881 | Separation: 1.2m | Time: 520.0s
+    Recommendation: REJECT - Critical separation violation. Mission must be delayed or rerouted.
+
+4. [CRITICAL] vs TRAFFIC-025
+    Risk: 0.881 | Separation: 1.2m | Time: 530.0s
+    Recommendation: REJECT - Critical separation violation. Mission must be delayed or rerouted.
+
+5. [CRITICAL] vs TRAFFIC-025
+    Risk: 0.881 | Separation: 1.2m | Time: 540.0s
+    Recommendation: REJECT - Critical separation violation. Mission must be delayed or rerouted.
+
+================================================================================
+END OF REPORT
+================================================================================

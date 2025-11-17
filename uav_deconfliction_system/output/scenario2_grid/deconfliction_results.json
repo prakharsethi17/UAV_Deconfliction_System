@@ -1,0 +1,1256 @@
+{
+  "is_clear": false,
+  "analysis_time_ms": 91.41182899475098,
+  "metrics": {
+    "stage1_reduction": "80 \u2192 12",
+    "stage1_time_ms": 9.01937484741211,
+    "stage2_time_ms": 76.8582820892334,
+    "stage3_time_ms": 5.467414855957031,
+    "total_time_ms": 91.36772155761719,
+    "raw_conflicts": 2140,
+    "assessed_conflicts": 73
+  },
+  "conflicts": [
+    {
+      "time": 500.0,
+      "location": {
+        "x": 1000.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-025",
+      "severity": "CRITICAL",
+      "risk_score": 0.880546423909098,
+      "separation_distance": 1.1816970113627576,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "REJECT - Critical separation violation. Mission must be delayed or rerouted."
+    },
+    {
+      "time": 510.0,
+      "location": {
+        "x": 1120.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-025",
+      "severity": "CRITICAL",
+      "risk_score": 0.880546423909098,
+      "separation_distance": 1.1816970113627576,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "REJECT - Critical separation violation. Mission must be delayed or rerouted."
+    },
+    {
+      "time": 520.0,
+      "location": {
+        "x": 1240.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-025",
+      "severity": "CRITICAL",
+      "risk_score": 0.880546423909098,
+      "separation_distance": 1.1816970113627576,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "REJECT - Critical separation violation. Mission must be delayed or rerouted."
+    },
+    {
+      "time": 530.0,
+      "location": {
+        "x": 1360.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-025",
+      "severity": "CRITICAL",
+      "risk_score": 0.880546423909098,
+      "separation_distance": 1.1816970113627576,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "REJECT - Critical separation violation. Mission must be delayed or rerouted."
+    },
+    {
+      "time": 540.0,
+      "location": {
+        "x": 1480.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-025",
+      "severity": "CRITICAL",
+      "risk_score": 0.880546423909098,
+      "separation_distance": 1.1816970113627576,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "REJECT - Critical separation violation. Mission must be delayed or rerouted."
+    },
+    {
+      "time": 550.0,
+      "location": {
+        "x": 1600.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-025",
+      "severity": "CRITICAL",
+      "risk_score": 0.880546423909098,
+      "separation_distance": 1.1816970113627576,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "REJECT - Critical separation violation. Mission must be delayed or rerouted."
+    },
+    {
+      "time": 560.0,
+      "location": {
+        "x": 1720.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-025",
+      "severity": "CRITICAL",
+      "risk_score": 0.880546423909098,
+      "separation_distance": 1.1816970113627576,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "REJECT - Critical separation violation. Mission must be delayed or rerouted."
+    },
+    {
+      "time": 570.0,
+      "location": {
+        "x": 1840.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-025",
+      "severity": "CRITICAL",
+      "risk_score": 0.880546423909098,
+      "separation_distance": 1.1816970113627576,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "REJECT - Critical separation violation. Mission must be delayed or rerouted."
+    },
+    {
+      "time": 580.0,
+      "location": {
+        "x": 1960.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-025",
+      "severity": "CRITICAL",
+      "risk_score": 0.880546423909098,
+      "separation_distance": 1.1816970113627576,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "REJECT - Critical separation violation. Mission must be delayed or rerouted."
+    },
+    {
+      "time": 500.0,
+      "location": {
+        "x": 1000.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-015",
+      "severity": "HIGH",
+      "risk_score": 0.7392432630739666,
+      "separation_distance": 18.844592115754182,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 510.0,
+      "location": {
+        "x": 1120.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-015",
+      "severity": "HIGH",
+      "risk_score": 0.7392432630739666,
+      "separation_distance": 18.844592115754182,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 520.0,
+      "location": {
+        "x": 1240.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-015",
+      "severity": "HIGH",
+      "risk_score": 0.7392432630739666,
+      "separation_distance": 18.844592115754182,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 530.0,
+      "location": {
+        "x": 1360.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-015",
+      "severity": "HIGH",
+      "risk_score": 0.7392432630739666,
+      "separation_distance": 18.844592115754182,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 540.0,
+      "location": {
+        "x": 1480.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-015",
+      "severity": "HIGH",
+      "risk_score": 0.7392432630739666,
+      "separation_distance": 18.844592115754182,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 550.0,
+      "location": {
+        "x": 1600.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-015",
+      "severity": "HIGH",
+      "risk_score": 0.7392432630739666,
+      "separation_distance": 18.844592115754182,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 560.0,
+      "location": {
+        "x": 1720.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-015",
+      "severity": "HIGH",
+      "risk_score": 0.7392432630739666,
+      "separation_distance": 18.844592115754182,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 570.0,
+      "location": {
+        "x": 1840.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-015",
+      "severity": "HIGH",
+      "risk_score": 0.7392432630739666,
+      "separation_distance": 18.844592115754182,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 580.0,
+      "location": {
+        "x": 1960.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-015",
+      "severity": "HIGH",
+      "risk_score": 0.7392432630739666,
+      "separation_distance": 18.844592115754182,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 500.0,
+      "location": {
+        "x": 1000.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-062",
+      "severity": "HIGH",
+      "risk_score": 0.7388726534510474,
+      "separation_distance": 18.890918318619086,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 510.0,
+      "location": {
+        "x": 1120.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-062",
+      "severity": "HIGH",
+      "risk_score": 0.7388726534510474,
+      "separation_distance": 18.890918318619086,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 520.0,
+      "location": {
+        "x": 1240.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-062",
+      "severity": "HIGH",
+      "risk_score": 0.7388726534510474,
+      "separation_distance": 18.890918318619086,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 530.0,
+      "location": {
+        "x": 1360.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-062",
+      "severity": "HIGH",
+      "risk_score": 0.7388726534510474,
+      "separation_distance": 18.890918318619086,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 540.0,
+      "location": {
+        "x": 1480.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-062",
+      "severity": "HIGH",
+      "risk_score": 0.7388726534510474,
+      "separation_distance": 18.890918318619086,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 550.0,
+      "location": {
+        "x": 1600.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-062",
+      "severity": "HIGH",
+      "risk_score": 0.7388726534510474,
+      "separation_distance": 18.890918318619086,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 560.0,
+      "location": {
+        "x": 1720.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-062",
+      "severity": "HIGH",
+      "risk_score": 0.7388726534510474,
+      "separation_distance": 18.890918318619086,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 570.0,
+      "location": {
+        "x": 1840.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-062",
+      "severity": "HIGH",
+      "risk_score": 0.7388726534510474,
+      "separation_distance": 18.890918318619086,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 580.0,
+      "location": {
+        "x": 1960.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-062",
+      "severity": "HIGH",
+      "risk_score": 0.7388726534510474,
+      "separation_distance": 18.890918318619086,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 500.0,
+      "location": {
+        "x": 1000.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-013",
+      "severity": "HIGH",
+      "risk_score": 0.6601338007410016,
+      "separation_distance": 28.733274907374806,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 510.0,
+      "location": {
+        "x": 1120.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-013",
+      "severity": "HIGH",
+      "risk_score": 0.6601338007410016,
+      "separation_distance": 28.733274907374806,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 520.0,
+      "location": {
+        "x": 1240.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-013",
+      "severity": "HIGH",
+      "risk_score": 0.6601338007410016,
+      "separation_distance": 28.733274907374806,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 530.0,
+      "location": {
+        "x": 1360.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-013",
+      "severity": "HIGH",
+      "risk_score": 0.6601338007410016,
+      "separation_distance": 28.733274907374806,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 540.0,
+      "location": {
+        "x": 1480.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-013",
+      "severity": "HIGH",
+      "risk_score": 0.6601338007410016,
+      "separation_distance": 28.733274907374806,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 550.0,
+      "location": {
+        "x": 1600.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-013",
+      "severity": "HIGH",
+      "risk_score": 0.6601338007410016,
+      "separation_distance": 28.733274907374806,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 560.0,
+      "location": {
+        "x": 1720.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-013",
+      "severity": "HIGH",
+      "risk_score": 0.6601338007410016,
+      "separation_distance": 28.733274907374806,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 570.0,
+      "location": {
+        "x": 1840.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-013",
+      "severity": "HIGH",
+      "risk_score": 0.6601338007410016,
+      "separation_distance": 28.733274907374806,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 580.0,
+      "location": {
+        "x": 1960.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-013",
+      "severity": "HIGH",
+      "risk_score": 0.6601338007410016,
+      "separation_distance": 28.733274907374806,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "WARN - High risk conflict. Suggest altitude adjustment (+50m) or 30s delay."
+    },
+    {
+      "time": 590.0,
+      "location": {
+        "x": 2080.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-025",
+      "severity": "WARNING",
+      "risk_score": 0.5883861230440108,
+      "separation_distance": 105.00188763934962,
+      "relative_velocity": 16.97056274847714,
+      "time_to_collision": 6.187295565597671,
+      "conflict_duration": 0.0,
+      "altitude_risk_factor": 2.0,
+      "recommendation": "CAUTION - Potential conflict detected. Monitor closely or adjust timing."
+    },
+    {
+      "time": 500.0,
+      "location": {
+        "x": 1000.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-072",
+      "severity": "WARNING",
+      "risk_score": 0.45001826225650976,
+      "separation_distance": 36.24695629058169,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.5,
+      "recommendation": "CAUTION - Potential conflict detected. Monitor closely or adjust timing."
+    },
+    {
+      "time": 510.0,
+      "location": {
+        "x": 1120.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-072",
+      "severity": "WARNING",
+      "risk_score": 0.45001826225650976,
+      "separation_distance": 36.24695629058169,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.5,
+      "recommendation": "CAUTION - Potential conflict detected. Monitor closely or adjust timing."
+    },
+    {
+      "time": 520.0,
+      "location": {
+        "x": 1240.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-072",
+      "severity": "WARNING",
+      "risk_score": 0.45001826225650976,
+      "separation_distance": 36.24695629058169,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.5,
+      "recommendation": "CAUTION - Potential conflict detected. Monitor closely or adjust timing."
+    },
+    {
+      "time": 530.0,
+      "location": {
+        "x": 1360.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-072",
+      "severity": "WARNING",
+      "risk_score": 0.45001826225650976,
+      "separation_distance": 36.24695629058169,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.5,
+      "recommendation": "CAUTION - Potential conflict detected. Monitor closely or adjust timing."
+    },
+    {
+      "time": 540.0,
+      "location": {
+        "x": 1480.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-072",
+      "severity": "WARNING",
+      "risk_score": 0.45001826225650976,
+      "separation_distance": 36.24695629058169,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.5,
+      "recommendation": "CAUTION - Potential conflict detected. Monitor closely or adjust timing."
+    },
+    {
+      "time": 550.0,
+      "location": {
+        "x": 1600.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-072",
+      "severity": "WARNING",
+      "risk_score": 0.45001826225650976,
+      "separation_distance": 36.24695629058169,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.5,
+      "recommendation": "CAUTION - Potential conflict detected. Monitor closely or adjust timing."
+    },
+    {
+      "time": 560.0,
+      "location": {
+        "x": 1720.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-072",
+      "severity": "WARNING",
+      "risk_score": 0.45001826225650976,
+      "separation_distance": 36.24695629058169,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.5,
+      "recommendation": "CAUTION - Potential conflict detected. Monitor closely or adjust timing."
+    },
+    {
+      "time": 570.0,
+      "location": {
+        "x": 1840.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-072",
+      "severity": "WARNING",
+      "risk_score": 0.45001826225650976,
+      "separation_distance": 36.24695629058169,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.5,
+      "recommendation": "CAUTION - Potential conflict detected. Monitor closely or adjust timing."
+    },
+    {
+      "time": 580.0,
+      "location": {
+        "x": 1960.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-072",
+      "severity": "WARNING",
+      "risk_score": 0.45001826225650976,
+      "separation_distance": 36.24695629058169,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.5,
+      "recommendation": "CAUTION - Potential conflict detected. Monitor closely or adjust timing."
+    },
+    {
+      "time": 500.0,
+      "location": {
+        "x": 1000.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-079",
+      "severity": "LOW",
+      "risk_score": 0.28828063874533,
+      "separation_distance": 51.19153359472293,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "ADVISORY - Low risk. Proceed with caution."
+    },
+    {
+      "time": 510.0,
+      "location": {
+        "x": 1120.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-079",
+      "severity": "LOW",
+      "risk_score": 0.28828063874533,
+      "separation_distance": 51.19153359472293,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "ADVISORY - Low risk. Proceed with caution."
+    },
+    {
+      "time": 520.0,
+      "location": {
+        "x": 1240.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-079",
+      "severity": "LOW",
+      "risk_score": 0.28828063874533,
+      "separation_distance": 51.19153359472293,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "ADVISORY - Low risk. Proceed with caution."
+    },
+    {
+      "time": 530.0,
+      "location": {
+        "x": 1360.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-079",
+      "severity": "LOW",
+      "risk_score": 0.28828063874533,
+      "separation_distance": 51.19153359472293,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "ADVISORY - Low risk. Proceed with caution."
+    },
+    {
+      "time": 540.0,
+      "location": {
+        "x": 1480.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-079",
+      "severity": "LOW",
+      "risk_score": 0.28828063874533,
+      "separation_distance": 51.19153359472293,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "ADVISORY - Low risk. Proceed with caution."
+    },
+    {
+      "time": 550.0,
+      "location": {
+        "x": 1600.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-079",
+      "severity": "LOW",
+      "risk_score": 0.28828063874533,
+      "separation_distance": 51.19153359472293,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "ADVISORY - Low risk. Proceed with caution."
+    },
+    {
+      "time": 560.0,
+      "location": {
+        "x": 1720.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-079",
+      "severity": "LOW",
+      "risk_score": 0.28828063874533,
+      "separation_distance": 51.19153359472293,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "ADVISORY - Low risk. Proceed with caution."
+    },
+    {
+      "time": 570.0,
+      "location": {
+        "x": 1840.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-079",
+      "severity": "LOW",
+      "risk_score": 0.28828063874533,
+      "separation_distance": 51.19153359472293,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "ADVISORY - Low risk. Proceed with caution."
+    },
+    {
+      "time": 580.0,
+      "location": {
+        "x": 1960.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-079",
+      "severity": "LOW",
+      "risk_score": 0.28828063874533,
+      "separation_distance": 51.19153359472293,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "ADVISORY - Low risk. Proceed with caution."
+    },
+    {
+      "time": 500.0,
+      "location": {
+        "x": 1000.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-009",
+      "severity": "SAFE",
+      "risk_score": 0.13999455602110938,
+      "separation_distance": 82.08446749560221,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 510.0,
+      "location": {
+        "x": 1120.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-009",
+      "severity": "SAFE",
+      "risk_score": 0.13999455602110938,
+      "separation_distance": 82.08446749560221,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 520.0,
+      "location": {
+        "x": 1240.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-009",
+      "severity": "SAFE",
+      "risk_score": 0.13999455602110938,
+      "separation_distance": 82.08446749560221,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 530.0,
+      "location": {
+        "x": 1360.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-009",
+      "severity": "SAFE",
+      "risk_score": 0.13999455602110938,
+      "separation_distance": 82.08446749560221,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 540.0,
+      "location": {
+        "x": 1480.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-009",
+      "severity": "SAFE",
+      "risk_score": 0.13999455602110938,
+      "separation_distance": 82.08446749560221,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 550.0,
+      "location": {
+        "x": 1600.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-009",
+      "severity": "SAFE",
+      "risk_score": 0.13999455602110938,
+      "separation_distance": 82.08446749560221,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 560.0,
+      "location": {
+        "x": 1720.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-009",
+      "severity": "SAFE",
+      "risk_score": 0.13999455602110938,
+      "separation_distance": 82.08446749560221,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 570.0,
+      "location": {
+        "x": 1840.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-009",
+      "severity": "SAFE",
+      "risk_score": 0.13999455602110938,
+      "separation_distance": 82.08446749560221,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 580.0,
+      "location": {
+        "x": 1960.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-009",
+      "severity": "SAFE",
+      "risk_score": 0.1279945560211094,
+      "separation_distance": 82.08446749560221,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 7.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 500.0,
+      "location": {
+        "x": 1000.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-047",
+      "severity": "SAFE",
+      "risk_score": 0.10906951124303432,
+      "separation_distance": 88.52718515770118,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 510.0,
+      "location": {
+        "x": 1120.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-047",
+      "severity": "SAFE",
+      "risk_score": 0.10906951124303432,
+      "separation_distance": 88.52718515770118,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 520.0,
+      "location": {
+        "x": 1240.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-047",
+      "severity": "SAFE",
+      "risk_score": 0.10906951124303432,
+      "separation_distance": 88.52718515770118,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 530.0,
+      "location": {
+        "x": 1360.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-047",
+      "severity": "SAFE",
+      "risk_score": 0.10906951124303432,
+      "separation_distance": 88.52718515770118,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 540.0,
+      "location": {
+        "x": 1480.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-047",
+      "severity": "SAFE",
+      "risk_score": 0.10906951124303432,
+      "separation_distance": 88.52718515770118,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 550.0,
+      "location": {
+        "x": 1600.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-047",
+      "severity": "SAFE",
+      "risk_score": 0.10906951124303432,
+      "separation_distance": 88.52718515770118,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 560.0,
+      "location": {
+        "x": 1720.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-047",
+      "severity": "SAFE",
+      "risk_score": 0.10906951124303432,
+      "separation_distance": 88.52718515770118,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 570.0,
+      "location": {
+        "x": 1840.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-047",
+      "severity": "SAFE",
+      "risk_score": 0.10906951124303432,
+      "separation_distance": 88.52718515770118,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 9.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    },
+    {
+      "time": 580.0,
+      "location": {
+        "x": 1960.0,
+        "y": 1000.0,
+        "z": 120.0
+      },
+      "conflicting_drone": "TRAFFIC-047",
+      "severity": "SAFE",
+      "risk_score": 0.09706951124303433,
+      "separation_distance": 88.52718515770118,
+      "relative_velocity": 0.0,
+      "time_to_collision": Infinity,
+      "conflict_duration": 7.0,
+      "altitude_risk_factor": 1.2,
+      "recommendation": "CLEAR - Acceptable separation maintained."
+    }
+  ]
+}
