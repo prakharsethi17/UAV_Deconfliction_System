@@ -86,7 +86,7 @@ uav_deconfliction_system/
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -120,7 +120,7 @@ kaleido>=0.2.1    # For static image export
 
 ---
 
-## 🚦 Quick Start
+## Quick Start
 
 ### 1. Run Complete Integration Demo
 Execute the full workflow with 4 pre-configured scenarios:
