@@ -53,6 +53,12 @@ class UAVVisualizationEnhanced:
 
     def interpolate_position(self, waypoints: List[Dict], cruise_speed: float,
                              start_time: float, query_time: float) -> Optional[np.ndarray]:
+        # Return None if query_time is outside the drone's mission time bounds
+        if query_time < start_time:
+            return None
+        end_time = start_time + self._mission_duration(waypoints, cruise_speed)
+        if query_time > end_time:
+            return None
         if len(waypoints) < 2:
             return None
         positions = np.array([[wp['x'], wp['y'], wp['z']] for wp in waypoints])
@@ -61,14 +67,23 @@ class UAVVisualizationEnhanced:
         times = distances / cruise_speed
         cumulative_times = np.concatenate([[0], np.cumsum(times)])
         elapsed = query_time - start_time
-        if elapsed < 0 or elapsed > cumulative_times[-1]:
-            return None
         for i in range(len(cumulative_times) - 1):
             if cumulative_times[i] <= elapsed <= cumulative_times[i + 1]:
                 segment_progress = (elapsed - cumulative_times[i]) / (cumulative_times[i + 1] - cumulative_times[i])
                 position = positions[i] + segment_progress * (positions[i + 1] - positions[i])
                 return position
         return positions[-1]
+
+    def _mission_duration(self, waypoints: List[Dict], cruise_speed: float) -> float:
+        if len(waypoints) < 2:
+            return 0.0
+        positions = np.array([[wp['x'], wp['y'], wp['z']] for wp in waypoints])
+        segments = positions[1:] - positions[:-1]
+        distances = np.linalg.norm(segments, axis=1)
+        total_distance = np.sum(distances)
+        if cruise_speed <= 0:
+            return 0.0
+        return total_distance / cruise_speed
 
     def create_animated_plot(self, fps: int = 10, duration: Optional[float] = None,
                              traffic_sample_rate: float = 0.3, show_conflict_zones: bool = True,
@@ -220,8 +235,11 @@ class UAVVisualizationEnhanced:
                         hoverinfo='skip'
                     ))
 
-            # Add traffic drones at this frame
+            # Add traffic drones at this frame, only if active within mission times
             for drone in selected_traffic:
+                # Only show drone if t_actual is within mission start and end times
+                if not (drone['start_time'] <= t_actual <= drone['end_time']):
+                    continue
                 traffic_pos = self.interpolate_position(
                     drone['waypoints'], drone['cruise_speed'], drone['start_time'], t_actual
                 )
@@ -669,4 +687,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
